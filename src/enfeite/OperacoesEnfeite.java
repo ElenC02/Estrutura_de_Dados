@@ -119,7 +119,7 @@ public class OperacoesEnfeite {
 		    BufferedWriter gravar = new BufferedWriter(new FileWriter( fileName ));	
 		
 			while (aux != null) {
-	            gravar.write(0); 
+	            gravar.write("** Novo Enfeite:"); 
 				gravar.newLine();
 
 				codTema = aux.enfeites.getCodTema();
